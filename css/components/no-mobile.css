@@ -2,12 +2,12 @@
   position: absolute;
   z-index: 99;
   height: 100vh;
-  background-color: var(--yellow);
+  background-color: var(--skyblue);
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 32px;
+  font-size: 100px;
   top: 0;
 }
 

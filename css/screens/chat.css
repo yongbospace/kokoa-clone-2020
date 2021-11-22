@@ -103,6 +103,36 @@
   flex-direction: row-reverse;
 }
 
+@keyframes messageLeftFadeIn {
+  from {
+    transform: translateX(-80px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.message-row__left {
+  opacity: 0;
+  animation: messageLeftFadeIn 0.3s linear forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes messageRightFadeIn {
+  from {
+    transform: translateX(80px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.message-row__right {
+  opacity: 0;
+  animation: messageRightFadeIn 0.3s linear forwards;
+  animation-delay: 1s;
+}
+
 .reply {
   position: fixed;
   bottom: 0;

@@ -1,3 +1,3 @@
-# Kokoa Clone 2020 Update
+# Piggy talk
 
-HTML & CSS are so much fun!
+someday ... I'm going to update this with React & styled-components
